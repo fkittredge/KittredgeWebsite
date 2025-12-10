@@ -24,3 +24,7 @@ build/
 # Deployment files
 .netlify/
 .vercel/
+
+# Emacs files
+.emacs.desktop
+.emacs.desktop.lock
