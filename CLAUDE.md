@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a simple consultancy website for Kittredge Technologies, which serves as a vehicle for Fletcher Kittredge's consulting business. The website should be clean, professional, and focused on showcasing Fletcher's experience and providing contact information.
+This is a simple consultancy website for Kittredge Technologies (KT). KT's market is Maine-based start-ups, small and medium size businesses. KT specializes in helping Maine companies with technology-driven transformation, particularly transformation with scarce resources (capital, labor). KT's principal consultant is Fletcher Kittredge. Fletcher's background is as a founder and CEO of a high-tech company, GWI. Over 30 years, Fletcher led GWI through multiple transformations and helped other companies with transformations. The website should be clean, professional, and focused.
 
 ## Project Goals
 
@@ -63,54 +63,6 @@ Marketing: reemphasis
 Finance: state-wide bank loans, family loans
 
 ### Education
-I graduated from Colby College in 1984 with a BA "With Distinction" in English. I recieveFrom 1985 to 1994 I was a part-time student at Harvard recieving a CAS in Computer Science from the Harvard Extension School in 1990 and a Masters in Computer Science from Kenneth C. Griffin Graduate School of Arts and Sciences in 1994. I took advantage of the ability to take some of my classes at MIT with Prof. Nancy Lynch's "Distributed Algorthims" one of my favorite courses. [Prof HT Kung's](https://en.wikipedia.org/wiki/H._T._Kung) seminar on communications hardware was another.
-
-### Expertise Areas
-*[Add technologies, methodologies, industries you specialize in]*
-Areas of expertise are:
-- Communications
-- Telco Regulation
-- Distributed Systems
-- Software
-- Computer Science
-- AI
-**IMPORTANT**: - Managing technology transformations with scarce resources
-
-### Services Offered
-*[Add what services you provide to clients]*
-- Consulting
-- Technical Grant writing
-
-### Notable Projects/Achievements
-*[Add key accomplishments, case studies, or notable work]*
-- Inc 500
-- Inc 5000
-- Mainebiz Next List
-- Mainebiz Business Leaders of theYear: Large Business
-- “Best Places to Work in Maine” for five years running: 2000-2024
-
-### Contact Information
-*[Add preferred contact methods - email, phone, LinkedIn, etc.]*
-email fletcher@kittredge.com
-### Professional Tone/Brand
-*[Add any notes about how you want to be presented - formal, approachable, technical focus, etc.]*
-
-## Technical Notes
-
-- Keep the website simple and lightweight
-- Focus on fast loading times
-- Ensure responsive design for mobile devices
-- Use semantic HTML and clean CSS
-- No complex frameworks needed - vanilla HTML/CSS/JS is sufficient
-- Colors scheme based on Harvard Crimson and hunter green
-
-## Development Commands
-
-```bash
-# Serve locally for development
-python -m http.server 8000
-# or
-npx http-server .
-
+I graduated from Colby College in 1984 with a BA "With Distinction" in English. I recieveFrom 1985 to 1994 I was a part-time student at Harvard recieving a CAS in Computer Science from the Harvard Extension School in 1990 and a Masters in Computer Science from Kenneth C. Griffin Graduate School of Arts and Sciences in 1994. I took advantage of the ability to take some of my classes at MIT with Prof. Nancy Lynch's "Distributed Algorthims" one of my favorite courses. [Prof HT Kung's](https://en.wikipedia.org/wiki/H._T._Kung) seminar at Harvard 
 # View at http://localhost:8000
 ```
