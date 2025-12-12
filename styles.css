@@ -73,8 +73,8 @@ header {
 }
 
 .hero-headshot {
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 280px;
     border-radius: 50%;
     object-fit: cover;
     border: 5px solid white;
@@ -377,8 +377,8 @@ footer p {
     }
 
     .hero-headshot {
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
         margin-bottom: 1.5rem;
     }
 
