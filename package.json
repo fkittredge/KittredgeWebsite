@@ -1,0 +1,21 @@
+{
+  "name": "kittredge-technologies",
+  "version": "1.0.0",
+  "description": "Kittredge Technologies consulting website",
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "start": "eleventy --serve",
+    "clean": "rm -rf _site"
+  },
+  "keywords": ["consulting", "technology", "transformation"],
+  "author": "Fletcher Kittredge",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  },
+  "dependencies": {
+    "luxon": "^3.4.4"
+  }
+}

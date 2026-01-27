@@ -63,6 +63,54 @@ Marketing: reemphasis
 Finance: state-wide bank loans, family loans
 
 ### Education
-I graduated from Colby College in 1984 with a BA "With Distinction" in English. I recieveFrom 1985 to 1994 I was a part-time student at Harvard recieving a CAS in Computer Science from the Harvard Extension School in 1990 and a Masters in Computer Science from Kenneth C. Griffin Graduate School of Arts and Sciences in 1994. I took advantage of the ability to take some of my classes at MIT with Prof. Nancy Lynch's "Distributed Algorthims" one of my favorite courses. [Prof HT Kung's](https://en.wikipedia.org/wiki/H._T._Kung) seminar at Harvard 
+I graduated from Colby College in 1984 with a BA "With Distinction" in English. I recieveFrom 1985 to 1994 I was a part-time student at Harvard recieving a CAS in Computer Science from the Harvard Extension School in 1990 and a Masters in Computer Science from Kenneth C. Griffin Graduate School of Arts and Sciences in 1994. I took advantage of the ability to take some of my classes at MIT with Prof. Nancy Lynch's "Distributed Algorthims" one of my favorite courses. [Prof HT Kung's](https://en.wikipedia.org/wiki/H._T._Kung) seminar at Harvard on communications hardware was another.
+
+### Expertise Areas
+*[Add technologies, methodologies, industries you specialize in]*
+Areas of expertise are:
+- Communications
+- Telco Regulation
+- Distributed Systems
+- Software
+- Computer Science
+- AI
+**IMPORTANT**: - Managing technology transformations with scarce resources
+
+### Services Offered
+*[Add what services you provide to clients]*
+- Consulting
+- Technical Grant writing
+
+### Notable Projects/Achievements
+*[Add key accomplishments, case studies, or notable work]*
+- Inc 500
+- Inc 5000
+- Mainebiz Next List
+- Mainebiz Business Leaders of theYear: Large Business
+- “Best Places to Work in Maine” for five years running: 2000-2024
+
+### Contact Information
+*[Add preferred contact methods - email, phone, LinkedIn, etc.]*
+email fletcher@kittredge.com
+### Professional Tone/Brand
+*[Add any notes about how you want to be presented - formal, approachable, technical focus, etc.]*
+
+## Technical Notes
+
+- Keep the website simple and lightweight
+- Focus on fast loading times
+- Ensure responsive design for mobile devices
+- Use semantic HTML and clean CSS
+- No complex frameworks needed - vanilla HTML/CSS/JS is sufficient
+- Color scheme based on Harvard Crimson and hunter green. Do not have the bar with colors fading into each other.
+
+## Development Commands
+
+```bash
+# Serve locally for development
+python -m http.server 8000
+# or
+npx http-server .
+
 # View at http://localhost:8000
 ```

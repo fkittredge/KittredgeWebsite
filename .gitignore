@@ -12,6 +12,7 @@
 # Node modules (if added later)
 node_modules/
 npm-debug.log*
+package-lock.json
 
 # Environment files
 .env
@@ -20,6 +21,9 @@ npm-debug.log*
 # Build output
 dist/
 build/
+_site/
+.cache/
+.eleventy.js.cache
 
 # Deployment files
 .netlify/
