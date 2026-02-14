@@ -61,49 +61,61 @@ header {
     color: #666;
 }
 
-/* Hero Split Section with Image */
+/* Hero Section */
 .hero-split {
     background-color: #fff;
-    min-height: 90vh;
 }
 
 .hero-content {
-    max-width: 1400px;
+    max-width: 800px;
     margin: 0 auto;
-    padding: 0 4vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-    align-items: start;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding: 4rem 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-image {
+    margin-bottom: 2rem;
+}
+
+.hero-image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    display: block;
 }
 
 .hero-text {
-    padding-right: 2rem;
+    width: 100%;
 }
 
 .hero-text h1 {
     font-family: 'Playfair Display', Georgia, serif;
-    font-size: 2.75rem;
-    font-weight: 600;
-    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
     color: #000;
     line-height: 1.2;
 }
 
 .hero-text p {
-    font-size: 1.05rem;
+    font-size: 1.1rem;
     margin-bottom: 1.5rem;
-    line-height: 1.7;
-    color: #444;
+    line-height: 1.8;
+    color: #333;
+    text-align: left;
 }
 
 .services-preview {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    margin: 2.5rem 0;
+    margin: 2rem 0;
+    text-align: left;
 }
 
 .services-col ul {
@@ -111,8 +123,8 @@ header {
 }
 
 .services-col li {
-    font-size: 1.15rem;
-    padding: 0.5rem 0;
+    font-size: 1.05rem;
+    padding: 0.4rem 0;
     font-weight: 400;
     color: #333;
 }
@@ -132,23 +144,6 @@ header {
 
 .cta-button:hover {
     background: #333;
-}
-
-.hero-image {
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    position: sticky;
-    top: 80px;
-}
-
-.hero-image img {
-    width: 100%;
-    max-width: 380px;
-    height: auto;
-    object-fit: cover;
-    display: block;
-    margin: 0 auto;
 }
 
 /* Section styles */
@@ -333,30 +328,6 @@ footer p {
 
 /* Responsive design */
 @media (max-width: 1024px) {
-    .hero-content {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-
-    .hero-image {
-        position: relative;
-        top: 0;
-        order: -1;
-    }
-
-    .hero-image img {
-        max-width: 400px;
-        margin: 0 auto;
-    }
-
-    .hero-text {
-        padding-right: 0;
-    }
-
-    .hero-text h1 {
-        font-size: 2.25rem;
-    }
-
     .contact-layout {
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -375,20 +346,12 @@ footer p {
         font-size: 0.9rem;
     }
 
-    .hero-split {
-        min-height: auto;
-    }
-
     .hero-text h1 {
-        font-size: 1.85rem;
+        font-size: 2rem;
     }
 
     .hero-text p {
         font-size: 1rem;
-    }
-
-    .hero-image img {
-        max-width: 320px;
     }
 
     .services-preview {
