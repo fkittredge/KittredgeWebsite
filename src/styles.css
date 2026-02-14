@@ -112,8 +112,7 @@ header {
 
 .services-preview {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    grid-template-columns: 1fr;
     margin: 2rem 0;
     text-align: left;
 }
@@ -123,10 +122,15 @@ header {
 }
 
 .services-col li {
-    font-size: 1.05rem;
-    padding: 0.4rem 0;
-    font-weight: 400;
-    color: #333;
+    font-size: 1.15rem;
+    padding: 0.5rem 0;
+    font-weight: 600;
+    color: #000;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.services-col li:first-child {
+    border-top: 1px solid #e0e0e0;
 }
 
 .cta-button {
